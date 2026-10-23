@@ -1,3 +1,0 @@
-SOFTINCLUDE /home/vlsilab/cds.lib
-DEFINE OpAmp /home/vlsilab/opAMP_338/OpAmp
-DEFINE opamp /home/vlsilab/opAMP_338/opamp
