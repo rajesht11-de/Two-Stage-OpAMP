@@ -125,6 +125,7 @@ Exact menu paths and simulation settings may differ by Cadence version and proje
 ## Author
 T RAJESH
 
-B.Tech, Electronics and Communication Engineering
+B.Tech, 
+Electronics and Communication Engineering
 Indian Institute of Information Technology, Sri City
 
