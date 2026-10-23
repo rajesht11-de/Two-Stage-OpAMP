@@ -1,0 +1,82 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+22.1.1-p041 Mon Apr 17 07:53:34 PDT 2023
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2023 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-128) : Quantus command line:
+ Started at: 2026-Aug-19 23:58:17 (2026-Aug-19 18:28:17 GMT)
+ Executable: /home/install/QUANTUS221/tools/extraction/bin/64bit/qrc
+ Options:     -log_file /home/vlsilab/opAMP_338/OpAmp/qrc.rc_extraction.log
+-cmd /home/vlsilab/opAMP_338/OpAmp/qrc.rc_extraction.ccl
+ Current working directory: /home/vlsilab/opAMP_338
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "vss"
+device_reduction \
+	 -m_factor infinite
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "LAYOUT"
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "opamp layout OpAmp" \
+	 -directory_name "/home/vlsilab/opAMP_338/OpAmp" \
+	 -format "DFII" \
+	 -library_definitions_file "/home/vlsilab/opAMP_338/cds.lib" \
+	 -run_name "rc_extraction"
+log_file \
+	 -file_name "/home/vlsilab/opAMP_338/OpAmp/qrc.rc_extraction.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -device_finger_delimiter "@" \
+	 -enable_cellview_check true \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "comment" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "false" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -transfer_net_expression true \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/vlsilab/opAMP_338/OpAmp" \
+	 -temporary_directory_name "rc_extraction"
+process_technology \
+	 -technology_directory \
+		"/home/install/FOUNDRY/analog/45nm/qrc/typical" \
+	 -temperature \
+		"25.0"
+
+
+
+
+WARNING (EXTQRCXOPT-440) : For "extracted_view" output the option output_db -cdl_out_map_directory
+<name> is not specified. There could be issues with parasitic cross probing
+flow if CDL Out Run Dir is not used in the run.
+  ERROR (LBRCXM-674): File '/home/vlsilab/opAMP_338/OpAmp/rc_extraction.agf' does not exist or is not readable.
+  
+  ERROR (LBRCXM-709): *****  Quantus terminated abnormally  *****
+  
+  

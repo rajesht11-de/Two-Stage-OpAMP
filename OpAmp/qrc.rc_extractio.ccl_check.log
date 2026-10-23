@@ -1,0 +1,32 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+22.1.1-p041 Mon Apr 17 07:53:34 PDT 2023
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2023 Cadence Design Systems,
+Inc.
+
+
+ERROR (EXTQRCXOPT-448) : Could not find a valid Quantus technology file name (qrcTechFile, qrc.tch
+or cap_coeff.dat)
+under technology directory :
+/home/install/FOUNDRY/analog/45nm/./assura/../qrc
+Check -technology_library_file or -technology_name options in command file 
+
+WARNING (EXTQRCXOPT-440) : For "extracted_view" output the option output_db -cdl_out_map_directory
+<name> is not specified. There could be issues with parasitic cross probing
+flow if CDL Out Run Dir is not used in the run.
+
+
+INFO (EXTQRCXLOG-103) : Command file checking completed.
+
+Ending at 2026-Aug-19 23:33:01 (2026-Aug-19 18:03:01 GMT).
+  Executed by:           vlsilab
+  Execution host:        cad5
+  Run duration:          00:00:00 CPU time, 00:00:00 clock time
+  Memory used:           194M
+  Warning messages:      0
+  Error messages:        1
+
+Exit code 2.
+Cadence Quantus Extraction exited unsuccessfully.

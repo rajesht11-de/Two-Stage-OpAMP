@@ -1,0 +1,50 @@
+#--------------------------------------------------------------------------------------
+# OPTION COMMAND FILE created by Cadence Extraction Quantus UI Version 22.1.1-p041
+#--------------------------------------------------------------------------------------
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "vss"
+device_reduction \
+	 -m_factor "infinite"
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size "auto" \
+	 -net_name_space "LAYOUT"
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "opamp layout OpAmp" \
+	 -run_name "rc_extraction" \
+	 -directory_name "/home/vlsilab/opAMP_338/OpAmp" \
+	 -format "DFII" \
+	 -library_definitions_file "/home/vlsilab/opAMP_338/cds.lib"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check true \
+	 -device_finger_delimiter "@" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "comment" \
+	 -include_res_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/vlsilab/opAMP_338/OpAmp" \
+	 -temporary_directory_name "rc_extraction"
+process_technology \
+	 -technology_directory \
+		"/home/install/FOUNDRY/analog/45nm/qrc/typical" \
+	 -temperature \
+		25.0

@@ -1,0 +1,552 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug 27 11:20:54 2026 
+Best design point: 1
+Design specs: 
+	OpAmp_opamp_tb_1	corner	C0_0 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		47.86M	Near
+	settling_time		22.5n	Yes
+	DC_offset		1.393m	Yes
+	power dissipation		170.5u	Yes
+	OpAmp_opamp_tb_2	corner	C0_0 - 
+	tpdf		-4.993u
+	tpdr		5.006u
+	tpd		6.425n
+	OpAmp_opamp_ac_1	corner	C0_0 - 
+	unity gain BW		118.2M	Yes
+	DC gain		49.5	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_0 - 
+	OpAmp_opamp_tb_1	corner	C0_1 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		48.76M	Near
+	settling_time		23.59n	Yes
+	DC_offset		1.652m	Yes
+	power dissipation		172.1u	Yes
+	OpAmp_opamp_tb_2	corner	C0_1 - 
+	tpdf		-4.993u
+	tpdr		5.006u
+	tpd		6.281n
+	OpAmp_opamp_ac_1	corner	C0_1 - 
+	unity gain BW		117.9M	Yes
+	DC gain		48.77	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_1 - 
+	OpAmp_opamp_tb_1	corner	C0_2 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		49.86M	Near
+	settling_time		24.25n	Yes
+	DC_offset		2.185m	Yes
+	power dissipation		174.4u	Yes
+	OpAmp_opamp_tb_2	corner	C0_2 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.042n
+	OpAmp_opamp_ac_1	corner	C0_2 - 
+	unity gain BW		92.77M	Yes
+	DC gain		47.38	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_2 - 
+	OpAmp_opamp_tb_1	corner	C0_3 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		47.27M	Near
+	settling_time		21.34n	Yes
+	DC_offset		1.417m	Yes
+	power dissipation		170.5u	Yes
+	OpAmp_opamp_tb_2	corner	C0_3 - 
+	tpdf		-4.993u
+	tpdr		5.007u
+	tpd		6.601n
+	OpAmp_opamp_ac_1	corner	C0_3 - 
+	unity gain BW		118M	Yes
+	DC gain		49.62	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_3 - 
+	OpAmp_opamp_tb_1	corner	C0_4 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		48.21M	Near
+	settling_time		22.73n	Yes
+	DC_offset		1.673m	Yes
+	power dissipation		172.1u	Yes
+	OpAmp_opamp_tb_2	corner	C0_4 - 
+	tpdf		-4.993u
+	tpdr		5.006u
+	tpd		6.447n
+	OpAmp_opamp_ac_1	corner	C0_4 - 
+	unity gain BW		117.7M	Yes
+	DC gain		48.9	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_4 - 
+	OpAmp_opamp_tb_1	corner	C0_5 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		49.36M	Near
+	settling_time		24.22n	Yes
+	DC_offset		2.201m	Yes
+	power dissipation		174.4u	Yes
+	OpAmp_opamp_tb_2	corner	C0_5 - 
+	tpdf		-4.993u
+	tpdr		5.006u
+	tpd		6.19n
+	OpAmp_opamp_ac_1	corner	C0_5 - 
+	unity gain BW		94.91M	Yes
+	DC gain		47.53	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_5 - 
+	OpAmp_opamp_tb_1	corner	C0_6 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		46.57M	Near
+	settling_time		15.94n	Yes
+	DC_offset		1.44m	Yes
+	power dissipation		170.5u	Yes
+	OpAmp_opamp_tb_2	corner	C0_6 - 
+	tpdf		-4.993u
+	tpdr		5.007u
+	tpd		6.779n
+	OpAmp_opamp_ac_1	corner	C0_6 - 
+	unity gain BW		117.7M	Yes
+	DC gain		49.73	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_6 - 
+	OpAmp_opamp_tb_1	corner	C0_7 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		47.57M	Near
+	settling_time		21.54n	Yes
+	DC_offset		1.694m	Yes
+	power dissipation		172.1u	Yes
+	OpAmp_opamp_tb_2	corner	C0_7 - 
+	tpdf		-4.993u
+	tpdr		5.007u
+	tpd		6.628n
+	OpAmp_opamp_ac_1	corner	C0_7 - 
+	unity gain BW		117.4M	Yes
+	DC gain		49.02	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_7 - 
+	OpAmp_opamp_tb_1	corner	C0_8 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		48.76M	Near
+	settling_time		24.03n	Yes
+	DC_offset		2.216m	Yes
+	power dissipation		174.4u	Yes
+	OpAmp_opamp_tb_2	corner	C0_8 - 
+	tpdf		-4.993u
+	tpdr		5.006u
+	tpd		6.348n
+	OpAmp_opamp_ac_1	corner	C0_8 - 
+	unity gain BW		96.92M	Yes
+	DC gain		47.67	Near
+	OpAmp_opamp_gm_pm_1	corner	C0_8 - 
+	OpAmp_opamp_tb_1	corner	C1_0 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		50.14M	Yes
+	settling_time		23.65n	Yes
+	DC_offset		1.965m	Yes
+	power dissipation		172.3u	Yes
+	OpAmp_opamp_tb_2	corner	C1_0 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.022n
+	OpAmp_opamp_ac_1	corner	C1_0 - 
+	unity gain BW		99.03M	Yes
+	DC gain		48.66	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_0 - 
+	OpAmp_opamp_tb_1	corner	C1_1 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		50.9M	Yes
+	settling_time		23.93n	Yes
+	DC_offset		2.265m	Yes
+	power dissipation		173.6u	Yes
+	OpAmp_opamp_tb_2	corner	C1_1 - 
+	tpdf		-4.994u
+	tpdr		5.005u
+	tpd		5.908n
+	OpAmp_opamp_ac_1	corner	C1_1 - 
+	unity gain BW		61.43M	Yes
+	DC gain		47.69	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_1 - 
+	OpAmp_opamp_tb_1	corner	C1_2 - 
+	vout_dc		1.303
+	vin_dc		1.3
+	SlewRate		51.8M	Yes
+	settling_time		24.28n	Yes
+	DC_offset		2.874m	Yes
+	power dissipation		175.5u	Yes
+	OpAmp_opamp_tb_2	corner	C1_2 - 
+	tpdf		-4.994u
+	tpdr		5.005u
+	tpd		5.723n
+	OpAmp_opamp_ac_1	corner	C1_2 - 
+	unity gain BW		34.48M	No
+	DC gain		45.6	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_2 - 
+	OpAmp_opamp_tb_1	corner	C1_3 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		49.69M	Near
+	settling_time		23.3n	Yes
+	DC_offset		1.972m	Yes
+	power dissipation		172.3u	Yes
+	OpAmp_opamp_tb_2	corner	C1_3 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.179n
+	OpAmp_opamp_ac_1	corner	C1_3 - 
+	unity gain BW		102.4M	Yes
+	DC gain		48.81	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_3 - 
+	OpAmp_opamp_tb_1	corner	C1_4 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		50.5M	Yes
+	settling_time		23.82n	Yes
+	DC_offset		2.267m	Yes
+	power dissipation		173.6u	Yes
+	OpAmp_opamp_tb_2	corner	C1_4 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.051n
+	OpAmp_opamp_ac_1	corner	C1_4 - 
+	unity gain BW		63.74M	Yes
+	DC gain		47.85	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_4 - 
+	OpAmp_opamp_tb_1	corner	C1_5 - 
+	vout_dc		1.303
+	vin_dc		1.3
+	SlewRate		51.45M	Yes
+	settling_time		24.42n	Yes
+	DC_offset		2.865m	Yes
+	power dissipation		175.5u	Yes
+	OpAmp_opamp_tb_2	corner	C1_5 - 
+	tpdf		-4.994u
+	tpdr		5.005u
+	tpd		5.846n
+	OpAmp_opamp_ac_1	corner	C1_5 - 
+	unity gain BW		35.11M	No
+	DC gain		45.82	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_5 - 
+	OpAmp_opamp_tb_1	corner	C1_6 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		49.15M	Near
+	settling_time		22.42n	Yes
+	DC_offset		1.979m	Yes
+	power dissipation		172.3u	Yes
+	OpAmp_opamp_tb_2	corner	C1_6 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.346n
+	OpAmp_opamp_ac_1	corner	C1_6 - 
+	unity gain BW		105.7M	Yes
+	DC gain		48.96	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_6 - 
+	OpAmp_opamp_tb_1	corner	C1_7 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		50.02M	Yes
+	settling_time		23.58n	Yes
+	DC_offset		2.27m	Yes
+	power dissipation		173.6u	Yes
+	OpAmp_opamp_tb_2	corner	C1_7 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.207n
+	OpAmp_opamp_ac_1	corner	C1_7 - 
+	unity gain BW		66.43M	Yes
+	DC gain		48.02	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_7 - 
+	OpAmp_opamp_tb_1	corner	C1_8 - 
+	vout_dc		1.303
+	vin_dc		1.3
+	SlewRate		51.02M	Yes
+	settling_time		24.36n	Yes
+	DC_offset		2.856m	Yes
+	power dissipation		175.5u	Yes
+	OpAmp_opamp_tb_2	corner	C1_8 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.979n
+	OpAmp_opamp_ac_1	corner	C1_8 - 
+	unity gain BW		35.76M	No
+	DC gain		46.02	Near
+	OpAmp_opamp_gm_pm_1	corner	C1_8 - 
+	OpAmp_opamp_tb_1	corner	C2_0 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		50.22M	Yes
+	settling_time		15.97n	Yes
+	DC_offset		696u	Yes
+	power dissipation		178.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_0 - 
+	tpdf		-4.994u
+	tpdr		5.007u
+	tpd		6.31n
+	OpAmp_opamp_ac_1	corner	C2_0 - 
+	unity gain BW		94.73M	Yes
+	DC gain		50.92	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_0 - 
+	OpAmp_opamp_tb_1	corner	C2_1 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		51.05M	Yes
+	settling_time		14.69n	Yes
+	DC_offset		882u	Yes
+	power dissipation		179.4u	Yes
+	OpAmp_opamp_tb_2	corner	C2_1 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.173n
+	OpAmp_opamp_ac_1	corner	C2_1 - 
+	unity gain BW		94.67M	Yes
+	DC gain		50.43	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_1 - 
+	OpAmp_opamp_tb_1	corner	C2_2 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		52.58M	Yes
+	settling_time		22.36n	Yes
+	DC_offset		1.259m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_2 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.959n
+	OpAmp_opamp_ac_1	corner	C2_2 - 
+	unity gain BW		95.5M	Yes
+	DC gain		49.56	Near
+	OpAmp_opamp_gm_pm_1	corner	C2_2 - 
+	OpAmp_opamp_tb_1	corner	C2_3 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		49.19M	Near
+	settling_time		18.05n	Yes
+	DC_offset		727.4u	Yes
+	power dissipation		178.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_3 - 
+	tpdf		-4.994u
+	tpdr		5.007u
+	tpd		6.498n
+	OpAmp_opamp_ac_1	corner	C2_3 - 
+	unity gain BW		94.32M	Yes
+	DC gain		51.02	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_3 - 
+	OpAmp_opamp_tb_1	corner	C2_4 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		50.14M	Yes
+	settling_time		15.8n	Yes
+	DC_offset		913.1u	Yes
+	power dissipation		179.4u	Yes
+	OpAmp_opamp_tb_2	corner	C2_4 - 
+	tpdf		-4.994u
+	tpdr		5.007u
+	tpd		6.352n
+	OpAmp_opamp_ac_1	corner	C2_4 - 
+	unity gain BW		94.35M	Yes
+	DC gain		50.54	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_4 - 
+	OpAmp_opamp_tb_1	corner	C2_5 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		51.85M	Yes
+	settling_time		21.27n	Yes
+	DC_offset		1.288m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_5 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.111n
+	OpAmp_opamp_ac_1	corner	C2_5 - 
+	unity gain BW		95.22M	Yes
+	DC gain		49.68	Near
+	OpAmp_opamp_gm_pm_1	corner	C2_5 - 
+	OpAmp_opamp_tb_1	corner	C2_6 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		48.67M	Near
+	settling_time		20.63n	Yes
+	DC_offset		757.7u	Yes
+	power dissipation		178.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_6 - 
+	tpdf		-4.994u
+	tpdr		5.007u
+	tpd		6.703n
+	OpAmp_opamp_ac_1	corner	C2_6 - 
+	unity gain BW		93.9M	Yes
+	DC gain		51.12	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_6 - 
+	OpAmp_opamp_tb_1	corner	C2_7 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		49.13M	Near
+	settling_time		17.65n	Yes
+	DC_offset		943.2u	Yes
+	power dissipation		179.4u	Yes
+	OpAmp_opamp_tb_2	corner	C2_7 - 
+	tpdf		-4.994u
+	tpdr		5.007u
+	tpd		6.539n
+	OpAmp_opamp_ac_1	corner	C2_7 - 
+	unity gain BW		94.02M	Yes
+	DC gain		50.64	Yes
+	OpAmp_opamp_gm_pm_1	corner	C2_7 - 
+	OpAmp_opamp_tb_1	corner	C2_8 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		51.03M	Yes
+	settling_time		18.18n	Yes
+	DC_offset		1.316m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C2_8 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.277n
+	OpAmp_opamp_ac_1	corner	C2_8 - 
+	unity gain BW		94.94M	Yes
+	DC gain		49.79	Near
+	OpAmp_opamp_gm_pm_1	corner	C2_8 - 
+	OpAmp_opamp_tb_1	corner	C3_0 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		52.92M	Yes
+	settling_time		18.42n	Yes
+	DC_offset		1.252m	Yes
+	power dissipation		180u	Yes
+	OpAmp_opamp_tb_2	corner	C3_0 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.9n
+	OpAmp_opamp_ac_1	corner	C3_0 - 
+	unity gain BW		106.8M	Yes
+	DC gain		50.77	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_0 - 
+	OpAmp_opamp_tb_1	corner	C3_1 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		53.65M	Yes
+	settling_time		21.43n	Yes
+	DC_offset		1.475m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_1 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.805n
+	OpAmp_opamp_ac_1	corner	C3_1 - 
+	unity gain BW		106.5M	Yes
+	DC gain		50.14	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_1 - 
+	OpAmp_opamp_tb_1	corner	C3_2 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		54.79M	Yes
+	settling_time		24.1n	Yes
+	DC_offset		1.919m	Yes
+	power dissipation		181.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_2 - 
+	tpdf		-4.994u
+	tpdr		5.005u
+	tpd		5.644n
+	OpAmp_opamp_ac_1	corner	C3_2 - 
+	unity gain BW		84.2M	Yes
+	DC gain		49.02	Near
+	OpAmp_opamp_gm_pm_1	corner	C3_2 - 
+	OpAmp_opamp_tb_1	corner	C3_3 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		52.11M	Yes
+	settling_time		14.55n	Yes
+	DC_offset		1.272m	Yes
+	power dissipation		180.1u	Yes
+	OpAmp_opamp_tb_2	corner	C3_3 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.067n
+	OpAmp_opamp_ac_1	corner	C3_3 - 
+	unity gain BW		106.5M	Yes
+	DC gain		50.89	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_3 - 
+	OpAmp_opamp_tb_1	corner	C3_4 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		52.94M	Yes
+	settling_time		19.93n	Yes
+	DC_offset		1.493m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_4 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.951n
+	OpAmp_opamp_ac_1	corner	C3_4 - 
+	unity gain BW		106.2M	Yes
+	DC gain		50.27	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_4 - 
+	OpAmp_opamp_tb_1	corner	C3_5 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		54.2M	Yes
+	settling_time		23.81n	Yes
+	DC_offset		1.931m	Yes
+	power dissipation		181.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_5 - 
+	tpdf		-4.994u
+	tpdr		5.005u
+	tpd		5.768n
+	OpAmp_opamp_ac_1	corner	C3_5 - 
+	unity gain BW		86.37M	Yes
+	DC gain		49.16	Near
+	OpAmp_opamp_gm_pm_1	corner	C3_5 - 
+	OpAmp_opamp_tb_1	corner	C3_6 - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		51.19M	Yes
+	settling_time		15.71n	Yes
+	DC_offset		1.291m	Yes
+	power dissipation		180.1u	Yes
+	OpAmp_opamp_tb_2	corner	C3_6 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.241n
+	OpAmp_opamp_ac_1	corner	C3_6 - 
+	unity gain BW		106.2M	Yes
+	DC gain		51.01	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_6 - 
+	OpAmp_opamp_tb_1	corner	C3_7 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		52.13M	Yes
+	settling_time		14.36n	Yes
+	DC_offset		1.511m	Yes
+	power dissipation		180.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_7 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		6.107n
+	OpAmp_opamp_ac_1	corner	C3_7 - 
+	unity gain BW		106M	Yes
+	DC gain		50.39	Yes
+	OpAmp_opamp_gm_pm_1	corner	C3_7 - 
+	OpAmp_opamp_tb_1	corner	C3_8 - 
+	vout_dc		1.302
+	vin_dc		1.3
+	SlewRate		53.55M	Yes
+	settling_time		23.13n	Yes
+	DC_offset		1.943m	Yes
+	power dissipation		181.6u	Yes
+	OpAmp_opamp_tb_2	corner	C3_8 - 
+	tpdf		-4.994u
+	tpdr		5.006u
+	tpd		5.905n
+	OpAmp_opamp_ac_1	corner	C3_8 - 
+	unity gain BW		88.38M	Yes
+	DC gain		49.3	Near
+	OpAmp_opamp_gm_pm_1	corner	C3_8 - 
+Design parameters: 
+
+Interactive.45
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.45 completed. 
+Current time: Thu Aug 27 11:26:23 2026 

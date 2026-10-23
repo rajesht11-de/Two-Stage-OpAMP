@@ -1,0 +1,50 @@
+avParameters(
+	?cellName "opamp"
+	?viewName "layout"
+	?inputLayout ( "DFII" "OpAmp" )
+	?cdslib "/home/vlsilab/opAMP_338/cds.lib"
+	?workingDirectory "/home/vlsilab/opAMP_338/OpAmp"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "vss"
+	?mFactorR "infinite"
+	?arrayViasSpacing "auto"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?maxMergedViaSize "auto"
+	?netNameSpace "layout"
+	?minC 1e-17
+	?minCByPercentage 0.1
+	?mergeParallelR nil
+	?minR 0.001
+	?pvsRunDir "/home/vlsilab/opAMP_338/OpAmp"
+	?pvsPrimary "rc_extraction"
+	?lvsSource "pvs"
+	?capacitor "pcapacitor"
+	?capPropName "c"
+	?deviceFingerDelimiter "@"
+	?checkCellView t
+	?capModels "no"
+	?parasiticCapModels "comment"
+	?parasiticResModels "comment"
+	?resModels "no"
+	?resistor "presistor"
+	?resPropName "r"
+	?transferNetExpression t
+	?outputFormat "dfii"
+	?lvsExtractedCellView nil
+	?extractedView "av_extracted"
+	?runName "rc_extraction"
+	?tempdir "/home/vlsilab/opAMP_338/OpAmp/rc_extraction/rcx_temp"
+	?rcxSetupDir ( "/home/install/FOUNDRY/analog/45nm/qrc/typical" )
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "coupled"
+
+)
+(avRCX)
+
+

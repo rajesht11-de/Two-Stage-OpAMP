@@ -1,0 +1,27 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug 27 09:13:03 2026 
+Best design point: 1
+Design specs: 
+	OpAmp_opamp_tb_1	corner	Nominal - 
+	vout_dc		1.301
+	vin_dc		1.3
+	SlewRate		50.56M	Yes
+	settling_time		21.55n	Yes
+	DC_offset		1.495m	Yes
+	power dissipation		175.8u	Yes
+	OpAmp_opamp_tb_2	corner	Nominal - 
+	tpdf		-4.993u
+	tpdr		5.009u
+	tpd		7.823n
+	OpAmp_opamp_ac_1	corner	Nominal - 
+	unity gain BW		88.78M	Yes
+	DC gain		50.5	Yes
+	OpAmp_opamp_gm_pm_1	corner	Nominal - 
+Design parameters: 
+
+Interactive.40
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.40 completed. 
+Current time: Thu Aug 27 09:13:23 2026 
