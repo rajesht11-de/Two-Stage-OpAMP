@@ -123,5 +123,8 @@ Exact menu paths and simulation settings may differ by Cadence version and proje
 - [Two_Stage_OpAmp_Report_338.pdf](Two_Stage_OpAmp_Report_338.pdf) — Full technical design report, including circuit architecture, transistor dimensions, test benches, simulation plots, design calculations, results, layout review, and conclusion.
 
 ## Author
+T RAJESH
 
-Add your name, affiliation, and project/course details here.
+B.Tech, Electronics and Communication Engineering
+Indian Institute of Information Technology, Sri City
+
