@@ -120,7 +120,7 @@ Exact menu paths and simulation settings may differ by Cadence version and proje
 
 ## Reference
 
-- `2_Stage_CMOS_OpAmp_Design_Report.pdf` — full technical design report, including circuit architecture, transistor dimensions, test benches, plots, design equations, simulation summary, layout review, and conclusion.
+- [Two_Stage_OpAmp_Report_338.pdf](Two_Stage_OpAmp_Report_338.pdf) — Full technical design report, including circuit architecture, transistor dimensions, test benches, simulation plots, design calculations, results, layout review, and conclusion.
 
 ## Author
 
